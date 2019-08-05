@@ -1,5 +1,5 @@
 function change_color(color) {
-    document.getElementById("stylesheet").setAttribute("href", "./css/css" + color + ".css");
+    document.getElementById("stylesheet").setAttribute("href", "css" + color + ".css");
     window.location.reload
 }
 var coloru = "#f14f2b";
